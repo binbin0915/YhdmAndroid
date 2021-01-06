@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">樱花动漫</string>
+    <string name="app_sub_name">新番时间表</string>
+    <string name="search">搜索</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- 权限文本 -->
+    <string name="permissions">为了正常使用，需要以下权限!</string>
+    <string name="permissions_error">未能获取到相关权限</string>
+    <!-- drawer Title -->
+    <string name="home_title">新番时间表</string>
+    <string name="home_tag_title">动漫分类</string>
+    <string name="home_movie_title">动漫电影</string>
+    <string name="home_zt_title">动漫专题</string>
+    <string name="home_jcb_title">剧场版</string>
+    <string name="home_my_title">我的</string>
+    <string name="home_my_item_title">追番</string>
+    <string name="home_setting_title">设置</string>
+    <string name="home_setting_item_title">自定义</string>
+    <string name="home_other_title">其他</string>
+    <string name="home_other_item_title">关于</string>
+    <string name="search_hint">请输入动漫名</string>
+    <!-- exit 文本 -->
+    <string name="exit_app">再按一次退出程序</string>
+    <!-- 主页dialog文本 -->
+    <string name="x5_info_title">注意事项</string>
+    <string name="x5_info">一些番剧可能需要使用WebView播放。\n新番多数可以直接使用内置播放器或外部播放器播放(某些可能第一次播放失败，需多尝试几次)。\n注：并不是所有番剧都能正常播放（多为网站本身原因）~</string>
+    <string name="x5_info_positive">OJBK</string>
+    <!-- 空文本 -->
+    <string name="empty">未能获取到任何信息</string>
+    <!-- 解析相关文本 -->
+    <string name="source_title">选择解析线路</string>
+    <string name="source_1">线路①</string>
+    <string name="source_2">线路②</string>
+    <string name="source_3">线路③</string>
+    <string name="source_4">线路④</string>
+    <string name="source_5">线路⑤</string>
+    <string name="source_6">线路⑥</string>
+    <string name="source_7">自定义接口</string>
+    <string name="source_8">访问原页面</string>
+    <string name="source_9">打开视频源</string>
+    <!-- 加载文本 -->
+    <string name="loading">加载中</string>
+    <string name="load_error">加载失败</string>
+    <string name="load_desc_info">请在番剧详情加载完毕后再进行操作</string>
+    <string name="no_more">数据全部加载完毕</string>
+    <!-- msg文本 -->
+    <string name="select_player">请选择视频播放器</string>
+    <string name="select_video_source">选择播放源</string>
+    <string name="parsing">解析中，请稍后&#8230;</string>
+    <string name="error_700">网络错误，请重试</string>
+    <string name="error_800">未能获取到播放地址\n1、解析方法不支持\n2、播放地址不存在\n3、可以尝试打开原页面去播放</string>
+    <string name="join_ok">(´・ω・`) 自己追的番就要好好看完哦！</string>
+    <string name="join_error">(﹁"﹁) 哼！竟然真的抛弃了人家。</string>
+    <string name="parsing_error">OH~解析出错了\n代码无法解析该界面信息~\n</string>
+    <string name="error_msg">抱歉，未找到相关信息~</string>
+    <string name="no_playlist_error">该番剧暂无播放列表。</string>
+    <string name="get_drama_error">获取剧集信息出错</string>
+    <string name="should_be_used_web">常规解析失败,尝试嗅探获取播放地址&#8230;</string>
+    <string name="open_web_view">解析视频地址失败，尝试使用webView打开</string>
+    <!-- 详情界面文本 -->
+    <string name="online">在线</string>
+    <string name="multi">多季</string>
+    <string name="recommend">相关推荐</string>
+    <string name="no_update">暂无更新</string>
+    <!-- 播放地址未找到 -->
+    <string name="play_not_found_title">解析失败</string>
+    <string name="play_not_found_positive">访问原页面</string>
+    <string name="play_not_found_negative">取消</string>
+    <!-- 设置界面文本 -->
+    <string name="set_api">自定义解析接口</string>
+    <string name="api">0</string>
+    <string name="x5">X5内核&lt;若webView闪退需禁用&gt;</string>
+    <string name="x5_up">启用</string>
+    <string name="x5_down">禁用</string>
+    <string name="page_title">设置参数</string>
+    <string name="page_positive">确定</string>
+    <string name="page_positive_edit">修改</string>
+    <string name="page_negative">取消</string>
+    <string name="page_def">恢复默认</string>
+    <string name="domain_title">输入樱花动漫域名(电脑版)</string>
+    <string name="set_domain_ok">域名更改成功</string>
+    <string name="set_domain_error1">参数不能为空</string>
+    <string name="set_domain_error2">参数格式错误</string>
+    <string name="api_error_1">参数不能为空</string>
+    <string name="api_error_2">参数格式不正确</string>
+    <string name="player">视频播放器</string>
+    <string name="player_default">内置</string>
+    <string name="domain">域名设置 (备用)</string>
+    <string name="domain_url">http://www.yhdm.io</string>
+    <string name="light">亮色主题</string>
+    <string name="dark">暗色主题</string>
+    <!-- webViewDialog 文本 -->
+    <string name="other_operation">操作</string>
+    <string name="anthology">选集</string>
+    <!-- api -->
+    <string name="api_title">自定义解析API</string>
+    <string name="delete_api_title">删除后将无法恢复。\n是否删除？</string>
+    <string name="no_api">未自定义解析Api~</string>
+    <!-- menu通用文本 -->
+    <string name="phone_model">手机版</string>
+    <string name="pc_model">电脑版</string>
+    <string name="down">下载</string>
+    <string name="open_in_browser">通过浏览器打开</string>
+    <!-- 收藏相关文本 -->
+    <string name="favorite_title">我的追番</string>
+    <string name="empty_favorite">空空如也呢(－∀＝)</string>
+    <string name="favorite">追番</string>
+    <string name="remove_favorite">弃番</string>
+    <string name="remove_api">移除</string>
+    <!-- 动画分类activity文本 -->
+    <string name="tag_title">动漫分类</string>
+    <!-- 自定义activity文本 -->
+    <string name="setting_title">自定义</string>
+    <!-- 关于相关文本 -->
+    <string name="about">关于</string>
+    <string name="open_source_library">开源相关</string>
+    <string name="source">数据来源</string>
+    <string name="statement">声明</string>
+    <string name="statement_desc">仅供学习交流\n禁止非法传播或用于商业用途</string>
+    <string name="test_model">测试</string>
+    <string name="test_model_desc">OnePlus 7 Pro\nAndroid 10</string>
+    <string name="now_version">当前版本</string>
+    <string name="final_compile">最后编译日期</string>
+    <string name="final_compile_time">2020年12月30日</string>
+    <string name="cache">缓存目录</string>
+    <string name="cache_text">/SakuraAnime/\n卸载后自行删除此目录</string>
+    <string name="github">Github</string>
+    <string name="github_url">https://github.com/670848654/SakuraAnime</string>
+    <!-- 检测更新 -->
+    <string name="update_log">更新日志</string>
+    <string name="check_update">检测更新</string>
+    <string name="check_update_text">检测更新中&#8230;</string>
+    <string name="download">下载中,请等待</string>
+    <string name="ck_network_error">连接Github超时，请重试</string>
+    <string name="ck_network_error_start">连接Github超时，检测更新失败</string>
+    <string name="try_again">重试</string>
+    <string name="no_new_version">已是最新版本，无需更新</string>
+    <string name="cancel">取消</string>
+    <string name="download_error">下载失败</string>
+    <string name="find_new_version">发现新版本</string>
+    <string name="update_now">现在更新</string>
+    <string name="update_after">暂不更新</string>
+    <!-- 开源相关 -->
+    <string name="os_title">开源相关</string>
+    <!-- 快捷方式文本 -->
+    <string name="disableMsg">不可用</string>
+    <string name="searchShortName">搜索动漫</string>
+    <string name="searchLongName">搜索动漫</string>
+    <string name="tagShortName">动漫分类</string>
+    <string name="tagLongName">动漫分类</string>
+    <string name="favoriteShortName">我的追番</string>
+    <string name="favoriteLongName">我的追番</string>
+    <!-- 播放器文本 -->
+    <string name="set_user_speed">设置快进/快退时长</string>
+    <string name="player_setting_title">播放器设置</string>
+    <string name="picture_in_picture_title">画中画</string>
+    <string name="player_other_title">其他操作</string>
+    <string name="play_with_external_player">使用外部播放器播放</string>
+    <string name="open_external_browser">通过浏览器访问原地址</string>
+    <string-array name="speed_item">
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+    </string-array>
+
+    <string-array name="week_array">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="prefix">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+    <string-array name="player">
+        <item>内置</item>
+        <item>外置</item>
+    </string-array>
+</resources>
